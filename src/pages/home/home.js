@@ -1,8 +1,4 @@
 import React from "react"
-import profile from "./img/Profilepicture.jfif"
-import family from "./img/FamilyIMG.JPEG"
-import couple from "./img/CoupleIMG.JPG"
-
 
 function Home() {
 
@@ -11,13 +7,13 @@ function Home() {
             <div id="homecarousel" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100 homepersonalpics" src={profile} alt="First slide" />
+                        <img className="d-block w-100 homepersonalpics"  alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 homepersonalpics" src={family} alt="Second slide" />
+                        <img className="d-block w-100 homepersonalpics"  alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 homepersonalpics" src={couple} alt="Third slide" />
+                        <img className="d-block w-100 homepersonalpics"  alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#homecarousel" role="button" data-slide="prev">

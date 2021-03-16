@@ -23,7 +23,7 @@ function Contact() {
                         <textarea className="form-control" id="Message" rows="8" placeholder="Subject"></textarea>
                         <br />
                     </div>
-                    <button type="button" className="btn btn-primary btn-lg" id="contactbutton"onClick={sendTo}>Submit</button>
+                    <button type="button" className="btn btn-primary btn-lg" id="contactbutton">Submit</button>
                 </form>
             </div>
         </>
