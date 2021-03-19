@@ -12,7 +12,6 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link to="/GlobalWebsite" className="nav-item nav-link active">Home</Link>
-                    <Link to="/GlobalWebsite/about" className="nav-item nav-link active">About</Link>
                     <Link to="/GlobalWebsite/services" className="nav-item nav-link active">Services</Link>
                     <Link to="/GlobalWebsite/licenses" className="nav-item nav-link active">Licenses</Link>
                     <Link to="/GlobalWebsite/blog" className="nav-item nav-link active">Blog</Link>
