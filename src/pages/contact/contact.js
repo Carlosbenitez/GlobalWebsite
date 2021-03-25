@@ -10,7 +10,7 @@ function Contact() {
 
 
             <div id="contentback">
-                <h1 id="contacth1"><span id="contacth1bg">Contact Me!</span></h1>
+                <h1 id="contacth1"><span id="contacth1bg">Contact Us!</span></h1>
                 <hr />
                 <form id="contactform">
                     <div className="form-group col-md-6">
