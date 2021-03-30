@@ -3,18 +3,18 @@ import logo from "./img/GlobalFavicon.jpg"
 
 function Home() {
     const cardInfo = [
-        { image: logo, title: "John Doe", position: "Customs Entry Writer", phone: "908-123-4567", email: "jdoe@gmail.com", alt: "The Company Logo" },
+        { id: 1, image: logo, title: "John Doe", position: "Customs Entry Writer", phone: "908-123-4567", email: "jdoe@gmail.com", alt: "The Company Logo" },
 
-        { image: logo, title: "Carlos Benitez", position: "Consultant", phone: "201-123-4567", email: "cbenitez@gmail.com", alt: "The Company Logo" },
+        { id: 2, image: logo, title: "Carlos Benitez", position: "Consultant", phone: "201-123-4567", email: "cbenitez@gmail.com", alt: "The Company Logo" },
 
-        { image: logo, title: "Dominika Pankowski", position: "Customs Specialist", phone: "908-123-7777", email: "dpankowski@gmail.com", alt: "The Company Logo" },
+        { id: 3, image: logo, title: "Dominika Pankowski", position: "Customs Specialist", phone: "908-123-7777", email: "dpankowski@gmail.com", alt: "The Company Logo" },
 
     ];
 
 
-    const renderCard = (card, index) => {
+    const renderCard = (card, index) => { 
         return (
-            <div className="col-sm-8 col-md-4 col-lg-4" >
+            <div className="col-sm-8 col-md-4 col-lg-4" key={card.id}>
                 <div className="content">
                     <img src={card.image} alt={card.alt} id="homeprofileimg"/>
                     <h2>{card.title}</h2>
