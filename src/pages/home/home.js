@@ -1,13 +1,35 @@
 import React from "react"
+import logo from "./img/GlobalFavicon.jpg"
 
 function Home() {
+    const cardInfo = [
+        { image: logo, title: "John Doe", position: "Customs Entry Writer", phone: "908-123-4567", email: "jdoe@gmail.com", alt: "The Company Logo" },
 
+        { image: logo, title: "Carlos Benitez", position: "Consultant", phone: "201-123-4567", email: "cbenitez@gmail.com", alt: "The Company Logo" },
+
+        { image: logo, title: "Dominika Pankowski", position: "Customs Specialist", phone: "908-123-7777", email: "dpankowski@gmail.com", alt: "The Company Logo" },
+
+    ];
+
+
+    const renderCard = (card, index) => {
+        return (
+            <div className="col-sm-8 col-md-4 col-lg-4" >
+                <div className="content">
+                    <img src={card.image} alt={card.alt} />
+                    <h2>{card.title}</h2>
+                    <p>{card.position}</p>
+                    <p>{card.phone}</p>
+                    <p>{card.email}</p>
+                </div>
+            </div>)
+    }
     return (
         <>
             <div className="pimg1">
                 <div className="ptext">
                     <span className="border">
-                    Global Customs Services LLC.
+                        Global Customs Services LLC.
                     </span>
                 </div>
             </div>
@@ -18,19 +40,19 @@ function Home() {
                 </p>
             </section>
 
-            
+
             <div className="pimg1">
                 <div className="ptext">
                     <span className="border">
-                    Meet the Team!
+                        Meet the Team!
                     </span>
                 </div>
             </div>
 
             <section className="section section-light">
-                <h1 id="homequote"> Our trusted employees:</h1>
-                <p>Here I would like to put the images of some of the employees so that users can get to know who theyre working with.
-                </p>
+                <div className="row">
+                    {cardInfo.map(renderCard)}
+                </div>
             </section>
         </>
     )

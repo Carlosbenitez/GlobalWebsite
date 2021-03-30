@@ -5,7 +5,6 @@ import Home from './pages/home/home';
 import Blog from './pages/blog/blog';
 import Licenses from './pages/licenses/licenses';
 import Services from './pages/services/services';
-import About from './pages/about/about';
 
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
@@ -16,9 +15,8 @@ function App() {
 <Router>
       <Nav />
       <Route exact path={["/", "/GlobalWebsite"]} component={Home} />
-      {/* <Route path="/GlobalWebsite/about" component={About} /> */}
       <Route path="/GlobalWebsite/contact" component={Contact} />
-      <Route path="/GlobalWebsite/blog" component={Blog} />
+      {/* <Route path="/GlobalWebsite/blog" component={Blog} /> */}
       <Route path="/GlobalWebsite/licenses" component={Licenses} />
       <Route path="/GlobalWebsite/services" component={Services} />
       <Footer />

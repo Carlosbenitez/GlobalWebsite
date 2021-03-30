@@ -21,7 +21,7 @@ body, html{
 
 .pimg1{
     background-image: url(../img/ConsultingIMG.jpg);
-    height: 500px;
+    height: 350px;
     min-height: 100%;
     background-repeat: no-repeat;
 }
@@ -124,6 +124,22 @@ body, html{
     .navbar-brand{
     color:white;
     font-weight: bold;
+}
+
+/* Contact specific style */
+
+#contactbutton{
+    border-color: black;
+    color: black;
+    background-color: white;
+    margin-left: 15px;
+}
+
+#contactbutton:hover{
+    border-color: rgba(0,154,68,255);
+    background-color: rgba(0,154,68,255);
+    color: white;
+
 }
 
 /* Footer specific style */
