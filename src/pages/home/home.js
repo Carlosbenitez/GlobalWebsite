@@ -16,7 +16,7 @@ function Home() {
         return (
             <div className="col-sm-8 col-md-4 col-lg-4" >
                 <div className="content">
-                    <img src={card.image} alt={card.alt} />
+                    <img src={card.image} alt={card.alt} id="homeprofileimg"/>
                     <h2>{card.title}</h2>
                     <p>{card.position}</p>
                     <p>{card.phone}</p>
@@ -29,7 +29,7 @@ function Home() {
             <div className="pimg1">
                 <div className="ptext">
                     <span className="border">
-                        Global Customs Services LLC.
+                        Global Customs Services LLC
                     </span>
                 </div>
             </div>

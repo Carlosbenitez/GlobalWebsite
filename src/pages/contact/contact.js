@@ -6,7 +6,7 @@ import React from "react"
 function Contact() {
     function sendTo() {
         window.location.href = "mailto:carlosbenitez86753@yahoo.com?subject=" + document.getElementById('Subject').value + "&body=" +
-            document.getElementById('Message').value
+            document.getElementById('Message').value + " Thank you, "  + document.getElementById('Name').value
         window.alert("Thank you for your message!");
     }
 
