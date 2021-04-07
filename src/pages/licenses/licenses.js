@@ -1,21 +1,28 @@
 import React from "react"
-
+import FMC from "./img/FMC.jpg"
+import CTPAT from "./img/CTPAT.png"
+import NCBFAA from "./img/NCBFAA.png"
+import NJBIA from "./img/NJBIA.png"
 
 function Licenses() {
 
     return (
         <>
-            <h1 id=""><span id="">Licenses & Credentials</span></h1>
-            <h2>Licensed</h2>
-            <ul className="licenseslists">
-                <li>U.S. Customs Brokers</li>
-                <li>NVOCC, Freight Forwarding, FMC</li>
-            </ul>
-
-            <h2>Certifications & Memberships</h2>
-            <ul className="licenseslists">
-                <li>IMDG, NCBFAA, CTPAT, NJBIA</li>
-            </ul>
+            <h1 id="licensesh1"><span >Licenses & Credentials</span></h1>
+            <div className="row">
+            <div className="column">
+            <img src={FMC} alt="Flowers in Chania" className="licensesimgs"/>
+            </div>
+            <div className="column">
+            <img src={CTPAT} alt="Flowers in Chania" className="licensesimgs"/>
+            </div>
+            <div className="column">
+            <img src={NCBFAA} alt="Flowers in Chania" className="licensesimgs"/>
+            </div>
+            <div className="column">
+            <img src={NJBIA} alt="Flowers in Chania" className="licensesimgs"/>
+            </div>
+            </div>
         </>
 
     )

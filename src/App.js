@@ -1,5 +1,6 @@
 import Nav from './components/nav';
-import Footer from './components/footer'
+import Footer from './components/footer';
+// import Social from './components/social'
 import Contact from './pages/contact/contact';
 import Home from './pages/home/home';
 // import Blog from './pages/blog/blog';
@@ -19,6 +20,7 @@ function App() {
       {/* <Route path="/GlobalWebsite/blog" component={Blog} /> */}
       <Route path="/GlobalWebsite/licenses" component={Licenses} />
       <Route path="/GlobalWebsite/services" component={Services} />
+      {/* <Social /> */}
       <Footer />
     </Router>
     </div>

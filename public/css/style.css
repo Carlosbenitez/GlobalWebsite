@@ -1,50 +1,49 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.8em;
     color: #666;
     background-color: white;
     color: black;
+    background-image: url(../img/ConsultingIMG.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 680px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Home specific style */
 
-#homeprofileimg{
-    border-radius: 350px;
-}
 
-.pimg1{
-    position:relative;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.pimg1{
-    background-image: url(../img/ConsultingIMG.jpg);
-    height: 350px;
-    min-height: 100%;
-    background-repeat: no-repeat;
-}
-
-.ptext{
-    position: absolute;
+.titletext{
     top: 50%;
     width: 100%;
+    color: #ffffff;
+    font-size: 350%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
     text-align: center;
-    color: black;
-    font-size: 35px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: 550;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
+    margin: 200px 0px;
 }
 
-.ptext .border{
-    background-color: white;
-    padding: 20px;
+#homeh1{
+    color: rgba(0,154,68,255);
+    margin-top: 50px;
+    font-size: 24pt;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+#homep{
+    font-size: 14pt;
 }
 
 .section{
@@ -62,10 +61,39 @@ body, html{
 
 /* Services specific style */
 
+.column{
+    color: rgba(0,154,68,255);
+    margin: 10px 30px;
+}
+
+#servicesh1{
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 350%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
+    margin: 250px 0px 290px 0px;
+}
+
+.servicestext{
+    color: black;
+}
+
 .serviceslists{
     list-style-type: square;
     display: list-item;
     padding-left: 30px;
+    line-height: 2;
+    font-size: 16px;
 }
 
 .servicessublists{
@@ -76,53 +104,86 @@ body, html{
 
 /* Licenses specific style */
 
-.licenseslists{
-    list-style-type: square;
-    display: list-item;
-    padding-left: 30px;
+.licensesimgs{
+    width: 300px;
+    height: 250px;
+    margin: 100px 0 200px 20px;
+}
+
+#licensesh1{
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 350%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
+    margin: 250px 0px 250px 0px;
 }
 
 
 /* Navbar specific style */
 
+#homelink{
+    margin-left: 200px;
+}
+
+#navbutton{
+    background-color: rgba(0,154,68,255);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    margin-left: 100px;
+}
+
+#navbutton:hover{
+    background-color: white;
+    color: rgba(0,154,68,255);
+}
 
 .navbar-nav{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-weight: 700;
-    font-size: larger;
+    font-size: large;
 }
 
 #navbarimg{
-    height: 90px;
-    width: 300px;
-    margin-left: -10px;
+    height: 80px;
+    width: 250px;
+    margin-left: 200px;
+    margin-top: -13px;
 }
 
 .navbar-toggler{
-    background-color:white;
+    background-color: rgba(0,154,68,255);
 }
 
 .navbar{
     width: 100%;
     top: 0; 
     z-index: 5;
-    background-color: rgba(0,154,68,255);
 }
 
 .nav-item{
+    font-size: 16px;
+    font-weight: 600;
     color: white;
-    margin-left: 50px;
-    transition: 0.75s ease;
+    margin-left: 30px;
+    transition: 0.50s ease;
+    margin-top: -25px;
 }
 
-    .nav-item:hover {
-    border-radius: 5px;
-    color: rgba(0,154,68,255);
-    background-color: white;
-    padding: 10px 0px 15px;
+    .nav-item:hover, .active {
+    color: rgb(146, 146, 146);
 }
 
     .navbar-brand{
@@ -131,6 +192,24 @@ body, html{
 }
 
 /* Contact specific style */
+
+#contacth1{
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 350%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
+    margin: 250px 0px 270px 0px;
+}
 
 #contactbutton{
     border-color: black;
@@ -143,12 +222,20 @@ body, html{
     border-color: rgba(0,154,68,255);
     background-color: rgba(0,154,68,255);
     color: white;
+}
 
+#contactprofileimg{
+    border-radius: 90%;
+}
+
+#contactcards{
+    margin: 100px 0px 15px 30px;
 }
 
 /* Footer specific style */
 
 .footer{
+
     margin-top: auto;
     text-align: center;
     width: 100%;
@@ -158,6 +245,42 @@ body, html{
     bottom: 0;
 }
 
+
+  /* Style the icon bar links */
+.icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+        margin: 0px 250px 2px 1200px; 
+        border-radius: 90%;
+}
+
+    /* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.instagram {
+    background: #404040;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+    .facebook {
+        background: #385898;
+        color: white;
+    }
 
 @media(max-width: 568px) {
     .pimg1{

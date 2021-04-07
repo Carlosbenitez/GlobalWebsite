@@ -5,34 +5,43 @@ function Services() {
 
     return (
         <>
-            <h1 id=""><span id="">Our Services</span></h1>
+            <h1 id="servicesh1"><span >Our Services</span></h1>
+            
+                
             <ul className="serviceslists">
-                <li>Fill customs import documentation</li>
-                <li>Import Security FIling (ISF)(10+2)</li>
-                <li>Custom clearance including but not limited to FDA, USDA,FCC, F&W, TIB, T&E</li>
-                <li>C-TPAT certified</li>
-                <li>Ocean Freight
+            <div className = "row">
+            <div className ="column">
+                <li><span className="servicestext">Full customs import documentation</span></li>
+                <li><span className="servicestext">Import Security FIling (ISF)(10+2)</span></li>
+                <li><span className="servicestext">Custom clearance including but not limited to FDA, USDA,FCC, F&W, TIB, T&E</span></li>
+                <li><span className="servicestext">C-TPAT certified</span></li>
+                <li><span className="servicestext">Ocean Freight</span>
                     <ul>
-                        <li className="servicessublists">FCL</li>
-                        <li className="servicessublists">LCL</li>
-                        <li className="servicessublists">OOG</li>
-                        <li className="servicessublists">Special equipment</li>
+                        <li className="servicessublists"><span className="servicestext">FCL</span></li>
+                        <li className="servicessublists"><span className="servicestext">LCL</span></li>
+                        <li className="servicessublists"><span className="servicestext">OOG</span></li>
+                        <li className="servicessublists"><span className="servicestext">Special equipment</span></li>
                     </ul>
                 </li>
-                <li>International & Domestic Air Frieght
+                </div>
+                <div className ="column">
+                <li><span className="servicestext">International & Domestic Air Frieght</span>
                 <ul>
-                        <li className="sublists">Direct</li>
-                        <li className="sublists">Consolidated</li>
+                        <li className="servicessublists"><span className="servicestext">Direct</span></li>
+                        <li className="servicessublists"><span className="servicestext">Consolidated</span></li>
                     </ul>
                 </li>
-                <li>Nationwide Domestic Trucking
+                <li><span className="servicestext">Nationwide Domestic Trucking</span>
                 <ul>
-                        <li className="sublists">Door to door</li>
-                        <li className="sublists">Trans-load Capabilities</li>
+                        <li className="servicessublists"><span className="servicestext">Door to door</span></li>
+                        <li className="servicessublists"><span className="servicestext">Trans-load Capabilities</span></li>
                     </ul>
                 </li>
-                <li>Online Tracking, Custom Bonds, Delivery to final consignee, Customized reports, Remote filing, Duty drawbacks</li>
-            </ul>
+                <li><span className="servicestext">Online Tracking, Custom Bonds, Delivery to final consignee, Customized reports, Remote filing, Duty drawbacks</span></li>
+                </div>
+                </div>
+            </ul>      
+            
         </>
 
     )
