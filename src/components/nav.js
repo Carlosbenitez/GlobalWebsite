@@ -14,9 +14,9 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link to="/GlobalWebsite" className="nav-item nav-link active" id="homelink">Home</Link>
+                    <Link to="/GlobalWebsite" className="nav-item nav-link" id="homelink">Home</Link>
                     <Link to="/GlobalWebsite/services" className="nav-item nav-link">Services</Link>
-                    <Link to="/GlobalWebsite/licenses" className="nav-item nav-link">Licenses</Link>
+                    <Link to="/GlobalWebsite/licenses" className="nav-item nav-link">Licenses & Accreditation</Link>
                     {/* <Link to="/GlobalWebsite/blog" className="nav-item nav-link active">Blog</Link> */}
                     <Link to="/GlobalWebsite/contact" className="nav-item nav-link" id="navbutton">Contact Us</Link>
                 </div>

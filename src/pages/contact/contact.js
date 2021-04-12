@@ -16,7 +16,7 @@ function Contact() {
     const renderCard = (card, index) => { 
         return (
             <div className="col-sm-8 col-md-4 col-lg-4" key={card.id}>
-                <div className="content">
+                <div className="content cardtext">
                     <img src={card.image} alt={card.alt} id="contactprofileimg"/>
                     <h2>{card.title}</h2>
                     <p>{card.position}</p>
@@ -29,7 +29,7 @@ function Contact() {
     function sendTo() {
         window.location.href = "mailto:carlosbenitez86753@yahoo.com?subject=" + document.getElementById('Subject').value + "&body=" +
             document.getElementById('Message').value + " Thank you, "  + document.getElementById('Name').value
-        window.alert("Thank you for your message!");
+        window.alert("Thank you for your message.");
     }
 
     return (
@@ -37,7 +37,7 @@ function Contact() {
 
 
             <div id="contentback">
-                <h1 id="contacth1"><span >Contact Us!</span></h1>
+                <h1 id="contacth1"><span >Contact Us</span></h1>
                 <hr />
                 <form id="contactform">
                     <div className="form-group col-md-6">

@@ -43,7 +43,9 @@ body, html{
 }
 
 #homep{
-    font-size: 14pt;
+    font-size: 15pt;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .section{
@@ -104,10 +106,21 @@ body, html{
 
 /* Licenses specific style */
 
-.licensesimgs{
-    width: 300px;
-    height: 250px;
-    margin: 100px 0 200px 20px;
+.center{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.licensesimgs1{
+    height: 150px;
+    object-fit: cover;
+    margin: 100px 0 0 20px;
+}
+
+.licensesimgs2{
+    height: 280px;
+    object-fit: cover;
+    margin: 30px 0 0 20px;
 }
 
 #licensesh1{
@@ -218,6 +231,11 @@ body, html{
     margin-left: 15px;
 }
 
+#contactform{
+    text-align: center;
+    display: inline;
+}
+
 #contactbutton:hover{
     border-color: rgba(0,154,68,255);
     background-color: rgba(0,154,68,255);
@@ -226,10 +244,17 @@ body, html{
 
 #contactprofileimg{
     border-radius: 90%;
+    height: 180px;
+    object-fit: cover;
+    margin: 30px 0 0 20px;
 }
 
 #contactcards{
-    margin: 100px 0px 15px 30px;
+    margin: 50px 0px 15px 30px;
+}
+
+.cardtext{
+    text-align: center;
 }
 
 /* Footer specific style */
