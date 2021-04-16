@@ -11,10 +11,20 @@ function Services() {
             <ul className="serviceslists">
             <div className = "row">
             <div className ="column">
-                <li><span className="servicestext">Full customs import documentation</span></li>
+            <li><span className="servicestext">Nationwide customs clearance</span></li>
                 <li><span className="servicestext">Import Security FIling (ISF)(10+2)</span></li>
-                <li><span className="servicestext">Custom clearance including but not limited to FDA, USDA,FCC, F&W, TIB, T&E</span></li>
-                <li><span className="servicestext">C-TPAT certified</span></li>
+                <li><span className="servicestext">Custom clearance including but not limited to FDA, USDA, F&W, TIB, T&E</span></li>
+                <li><span className="servicestext">Nationwide Domestic Trucking</span>
+                <ul>
+                        <li className="servicessublists"><span className="servicestext">Door to door</span></li>
+                        <li className="servicessublists"><span className="servicestext">Trans-load Capabilities</span></li>
+                    </ul>
+                </li>
+                </div>
+                <div className ="column">
+
+                <li><span className="servicestext">International Air Frieght</span>
+                </li>
                 <li><span className="servicestext">Ocean Freight</span>
                     <ul>
                         <li className="servicessublists"><span className="servicestext">FCL</span></li>
@@ -23,21 +33,7 @@ function Services() {
                         <li className="servicessublists"><span className="servicestext">Special equipment</span></li>
                     </ul>
                 </li>
-                </div>
-                <div className ="column">
-                <li><span className="servicestext">International & Domestic Air Frieght</span>
-                <ul>
-                        <li className="servicessublists"><span className="servicestext">Direct</span></li>
-                        <li className="servicessublists"><span className="servicestext">Consolidated</span></li>
-                    </ul>
-                </li>
-                <li><span className="servicestext">Nationwide Domestic Trucking</span>
-                <ul>
-                        <li className="servicessublists"><span className="servicestext">Door to door</span></li>
-                        <li className="servicessublists"><span className="servicestext">Trans-load Capabilities</span></li>
-                    </ul>
-                </li>
-                <li><span className="servicestext">Online Tracking, Custom Bonds, Delivery to final consignee, Customized reports, Remote filing, Duty drawbacks</span></li>
+                <li><span className="servicestext">Online Tracking, Custom Bonds, Delivery to final consignee, Customized reports, Duty drawbacks</span></li>
                 </div>
                 </div>
             </ul>      

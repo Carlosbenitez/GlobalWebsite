@@ -44,8 +44,7 @@ body, html{
 
 #homep{
     font-size: 15pt;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 50px 150px 0 150px;
 }
 
 .section{
@@ -93,7 +92,7 @@ body, html{
 .serviceslists{
     list-style-type: square;
     display: list-item;
-    padding-left: 30px;
+    padding-left: 40px;
     line-height: 2;
     font-size: 16px;
 }
@@ -112,15 +111,27 @@ body, html{
 }
 
 .licensesimgs1{
-    height: 150px;
+    height: 100px;
     object-fit: cover;
     margin: 100px 0 0 20px;
 }
 
+.NJBIA{
+    height: 150px;
+}
+
 .licensesimgs2{
-    height: 280px;
+    height: 150px;
     object-fit: cover;
     margin: 30px 0 0 20px;
+}
+
+.USCustoms{
+    height: 200px;
+}
+
+.WCA{
+    height: 100px;
 }
 
 #licensesh1{
@@ -244,13 +255,14 @@ body, html{
 
 #contactprofileimg{
     border-radius: 90%;
-    height: 180px;
+    height: 100px;
     object-fit: cover;
-    margin: 30px 0 0 20px;
+    margin: 30px 0 10px 20px;
 }
 
 #contactcards{
-    margin: 50px 0px 15px 30px;
+    margin: 50px 300px 15px 300px;
+    ;
 }
 
 .cardtext{
@@ -258,6 +270,11 @@ body, html{
 }
 
 /* Footer specific style */
+
+#footerIMG{
+    width: 100%;
+    height: 150px;
+}
 
 .footer{
 
@@ -284,28 +301,29 @@ body, html{
 }
 
     /* Style the social media icons with color, if you want */
-.icon-bar a:hover {
+.navfooter a:hover {
     background-color: #000;
 }
 
-.instagram {
+.fa-instagram {
     background: #404040;
     color: white;
 }
 
-.linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
 }
 
-.youtube {
+.fa-youtube {
     background: #bb0000;
     color: white;
 }
-    .facebook {
-        background: #385898;
-        color: white;
-    }
+
+.fa-facebook {
+    background: #385898;
+    color: white;
+}
 
 @media(max-width: 568px) {
     .pimg1{

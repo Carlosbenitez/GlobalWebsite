@@ -9,13 +9,12 @@ function Contact() {
 
         { id: 2, image: logo, title: "Carlos Benitez", position: "Consultant", phone: "201-123-4567", email: "cbenitez@gmail.com", alt: "The Company Logo" },
 
-        { id: 3, image: logo, title: "Dominika Pankowski", position: "Customs Specialist", phone: "908-123-7777", email: "dpankowski@gmail.com", alt: "The Company Logo" },
 
     ];
 
     const renderCard = (card, index) => { 
         return (
-            <div className="col-sm-8 col-md-4 col-lg-4" key={card.id}>
+            <div className="col-sm-8 col-md-4 col-lg-4 center" key={card.id}>
                 <div className="content cardtext">
                     <img src={card.image} alt={card.alt} id="contactprofileimg"/>
                     <h2>{card.title}</h2>
