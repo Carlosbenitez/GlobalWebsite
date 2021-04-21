@@ -5,9 +5,9 @@ import logo from "./img/GlobalFavicon.jpg"
 
 function Contact() {
     const cardInfo = [
-        { id: 1, image: logo, title: "John Doe", position: "Customs Entry Writer", phone: "908-123-4567", email: "jdoe@gmail.com", alt: "The Company Logo" },
+        { id: 1, image: logo, title: "Diane Sutera", position: "Customs House Broker", email: "diane-sutera@glship.com", alt: "The Company Logo" },
 
-        { id: 2, image: logo, title: "Carlos Benitez", position: "Consultant", phone: "201-123-4567", email: "cbenitez@gmail.com", alt: "The Company Logo" },
+        { id: 2, image: logo, title: "Antoinette McKnight", position: "Customs Operations Manager", email: "antoinette-mcknight@glship.com", alt: "The Company Logo" },
 
 
     ];
@@ -19,7 +19,6 @@ function Contact() {
                     <img src={card.image} alt={card.alt} id="contactprofileimg"/>
                     <h2>{card.title}</h2>
                     <p>{card.position}</p>
-                    <p>{card.phone}</p>
                     <p>{card.email}</p>
                 </div>
             </div>)
