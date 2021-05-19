@@ -1,9 +1,7 @@
 import Nav from './components/nav';
 import Footer from './components/footer';
-// import Social from './components/social'
 import Contact from './pages/contact/contact';
 import Home from './pages/home/home';
-// import Blog from './pages/blog/blog';
 import Licenses from './pages/licenses/licenses';
 import Services from './pages/services/services';
 
@@ -17,10 +15,8 @@ function App() {
       <Nav />
       <Route exact path={["/", "/GlobalWebsite"]} component={Home} />
       <Route path="/GlobalWebsite/contact" component={Contact} />
-      {/* <Route path="/GlobalWebsite/blog" component={Blog} /> */}
       <Route path="/GlobalWebsite/licenses" component={Licenses} />
       <Route path="/GlobalWebsite/services" component={Services} />
-      {/* <Social /> */}
       <Footer />
     </Router>
     </div>
