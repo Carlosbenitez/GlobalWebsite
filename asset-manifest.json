@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/GlobalWebsite/static/js/main.495511ab.chunk.js",
-    "main.js.map": "/GlobalWebsite/static/js/main.495511ab.chunk.js.map",
+    "main.js": "/GlobalWebsite/static/js/main.e468de96.chunk.js",
+    "main.js.map": "/GlobalWebsite/static/js/main.e468de96.chunk.js.map",
     "runtime-main.js": "/GlobalWebsite/static/js/runtime-main.e39143c9.js",
     "runtime-main.js.map": "/GlobalWebsite/static/js/runtime-main.e39143c9.js.map",
     "static/js/2.fa8ad140.chunk.js": "/GlobalWebsite/static/js/2.fa8ad140.chunk.js",
@@ -11,6 +11,7 @@
     "index.html": "/GlobalWebsite/index.html",
     "static/js/2.fa8ad140.chunk.js.LICENSE.txt": "/GlobalWebsite/static/js/2.fa8ad140.chunk.js.LICENSE.txt",
     "static/media/CTPAT.c13c94b0.png": "/GlobalWebsite/static/media/CTPAT.c13c94b0.png",
+    "static/media/CustomsFooter.7e37696e.jpg": "/GlobalWebsite/static/media/CustomsFooter.7e37696e.jpg",
     "static/media/FMC.246429bb.jpg": "/GlobalWebsite/static/media/FMC.246429bb.jpg",
     "static/media/GlobalFavicon.2909049b.jpg": "/GlobalWebsite/static/media/GlobalFavicon.2909049b.jpg",
     "static/media/GlobalLogo.c6cb29ab.jpg": "/GlobalWebsite/static/media/GlobalLogo.c6cb29ab.jpg",
@@ -21,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.e39143c9.js",
     "static/js/2.fa8ad140.chunk.js",
-    "static/js/main.495511ab.chunk.js"
+    "static/js/main.e468de96.chunk.js"
   ]
 }

@@ -1,89 +1,73 @@
+@media (max-width: 570px) {
+    body, html{
+        text-align: center;
+    }
+    
+
+}
+
 body, html{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
     color: #666;
-    background-color: white;
     color: black;
-    background-image: url(../img/ConsultingIMG.jpg);
-    background-repeat: no-repeat;
-    background-size: 1600px 680px;
     font-family: 'Roboto', sans-serif;
+}
+
+.customh1{
+    top: 50%;
+    width: 95%;
+    font-size: 26px;
+    line-height: 1.2;
+    color: rgba(0,154,68,255);
+    text-shadow: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
 }
 
 /* Home specific style */
 
 
-
-.titletext{
-    top: 50%;
-    width: 100%;
-    color: #ffffff;
-    font-size: 350%;
-    text-shadow: none;
-    line-height: 1.2;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    font-weight: 600;
-    margin: 200px 0px;
+#titletext{
+    margin: 50px 10px 20px 10px;
 }
 
 #homeh1{
-    color: rgba(0,154,68,255);
-    margin-top: 50px;
-    font-size: 24pt;
-    font-weight: 700;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
     padding-bottom: 40px;
+    text-align: center;
 }
 
-#homep{
-    font-size: 15pt;
-    margin-left: 150px;
-    margin-right: 150px;
+.homep{
+    font-size: 14pt;
+    margin-bottom: 20px;
 }
 
 .section{
-    text-align: center;
-    padding: 50px 80px;
+    padding: 50px 20px;
+    background-color: rgba(0,154,68,255);
 }
 
-#homequote{
-    font-weight: 800;
-}
-
-#homeabout{
-    font-size: 20px;
-}
 
 /* Services specific style */
 
+#servicesbg{
+    background-color: rgba(0,154,68,255);
+}
+
 .column{
-    color: rgba(0,154,68,255);
+    color: white;
     margin: 10px 30px;
 }
 
 #servicesh1{
-    top: 50%;
-    width: 100%;
-    color: #ffffff;
-    font-size: 350%;
-    text-shadow: none;
-    line-height: 1.2;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    font-weight: 600;
-    margin: 250px 0px 290px 0px;
+    margin: 30px 0 30px 0;
 }
 
 .servicestext{
@@ -93,9 +77,11 @@ body, html{
 .serviceslists{
     list-style-type: square;
     display: list-item;
-    padding-left: 30px;
+    padding-left: 20px;
     line-height: 2;
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    background-color: rgba(0,154,68,255);
 }
 
 .servicessublists{
@@ -112,123 +98,48 @@ body, html{
 }
 
 .licensesimgs1{
-    height: 150px;
+    height: 100px;
     object-fit: cover;
-    margin: 100px 0 0 20px;
+    margin: 30px 0;
+}
+
+.NJBIA{
+    height: 175px;
 }
 
 .licensesimgs2{
-    height: 280px;
     object-fit: cover;
-    margin: 30px 0 0 20px;
+}
+
+.USCustoms{
+    height: 200px;
+}
+
+.WCA{
+    height: 125px;
+    margin-bottom: 40px;
+}
+
+.FMC{
+    height: 200px;
 }
 
 #licensesh1{
-    top: 50%;
-    width: 100%;
-    color: #ffffff;
-    font-size: 350%;
-    text-shadow: none;
-    line-height: 1.2;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    font-weight: 600;
-    margin: 250px 0px 250px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
-
-/* Navbar specific style */
-
-#homelink{
-    margin-left: 200px;
-}
-
-#navbutton{
-    background-color: rgba(0,154,68,255);
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #FFFFFF;
-    border-radius: 5px 5px 5px 5px;
-    padding: 8px 15px 8px 15px;
-    color: white;
-    margin-left: 100px;
-}
-
-#navbutton:hover{
-    background-color: white;
-    color: rgba(0,154,68,255);
-}
-
-.navbar-nav{
-    font-weight: 700;
-    font-size: large;
-}
-
-#navbarimg{
-    height: 80px;
-    width: 250px;
-    margin-left: 200px;
-    margin-top: -13px;
-}
-
-.navbar-toggler{
-    background-color: rgba(0,154,68,255);
-}
-
-.navbar{
-    width: 100%;
-    top: 0; 
-    z-index: 5;
-}
-
-.nav-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    margin-left: 30px;
-    transition: 0.50s ease;
-    margin-top: -25px;
-}
-
-    .nav-item:hover, .active {
-    color: rgb(146, 146, 146);
-}
-
-    .navbar-brand{
-    color:white;
-    font-weight: bold;
-}
 
 /* Contact specific style */
 
 #contacth1{
-    top: 50%;
-    width: 100%;
-    color: #ffffff;
-    font-size: 350%;
-    text-shadow: none;
-    line-height: 1.2;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    font-weight: 600;
-    margin: 250px 0px 270px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 #contactbutton{
     border-color: black;
     color: black;
     background-color: white;
-    margin-left: 15px;
+    margin-bottom: 30px;
 }
 
 #contactform{
@@ -243,77 +154,366 @@ body, html{
 }
 
 #contactprofileimg{
-    border-radius: 90%;
-    height: 180px;
     object-fit: cover;
-    margin: 30px 0 0 20px;
+    border-radius: 90%;
+    height: 100px;
+    margin: 30px 0 10px 20px;
 }
 
 #contactcards{
-    margin: 50px 0px 15px 30px;
+    margin: 50px 0 15px;
 }
 
 .cardtext{
     text-align: center;
 }
 
+
+/* Navbar specific style */
+
+.navbar-nav{
+    font-weight: 700;
+    font-size: large;
+}
+
+#navbarimg{
+    top: 50%;
+    width: 105%;
+}
+
+.navbar-toggler{
+    top: 50%;
+    width: 100%;
+    background-color: rgba(0,154,68,255);
+}
+
+.navbar{
+    width: 100%;
+    top: 0; 
+    z-index: 5;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: 0.50s ease;
+    background-color: rgba(0,154,68,255);
+}
+
+    .nav-item:hover, .active {
+    color: rgb(146, 146, 146);
+}
+
+    .navbar-brand{
+    color:white;
+    font-weight: bold;
+}
+
+
 /* Footer specific style */
 
-.footer{
+#footerIMG{
+    width: 100%;
+    height: 80px;
+}
 
+.footer{
     margin-top: auto;
     text-align: center;
     width: 100%;
-    bottom: 0;
     opacity: 80%;
     left: 0;
     bottom: 0;
+    position: absolute;
 }
 
 
-  /* Style the icon bar links */
-.icon-bar a {
-        display: block;
-        text-align: center;
-        padding: 16px;
-        transition: all 0.3s ease;
-        color: white;
+@media (min-width: 575px) {
+
+    body, html{
+        height: 100%;
+        margin: 0;
         font-size: 20px;
-        margin: 0px 250px 2px 1200px; 
-        border-radius: 90%;
-}
+        font-weight: 400;
+        color: #666;
+        background-color: white;
+        color: black;
+        background-image: url(../img/ConsultingIMG.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 580px;
+        font-family: 'Roboto', sans-serif;
+    }
 
-    /* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-    background-color: #000;
-}
+    .customh1{
+        top: 50%;
+        width: 100%;
+        font-size: 350%;
+        color: white;
+        font-weight: 600;
+    }
 
-.instagram {
-    background: #404040;
-    color: white;
-}
+    /* Home specific style */
 
-.linkedin {
-    background: #007bb5;
-    color: white;
-}
+    #titletext{
+        width: 100%;
+        color: #ffffff;
+        font-size: 300%;
+        margin: 150px 0px;
+    }
 
-.youtube {
-    background: #bb0000;
-    color: white;
-}
-    .facebook {
-        background: #385898;
+    #homeh1{
+        color: rgba(0,154,68,255);
+        margin-top: 50px;
+        font-size: 24pt;
+        font-weight: 700;
+        padding-bottom: 40px;
+    }
+
+    .homep{
+        font-size: 20px;
+        margin: 50px 100px 0;
+        text-align: center;
+    }
+
+    .section{
+        padding: 50px 0px;
+        background-color: white;
+    }
+
+    #homequote{
+        font-weight: 800;
+    }
+
+    /* Services specific style */
+
+    #servicesh1{
+        margin: 175px 0px 250px 0px;
+    }
+
+    .column{
+        color: rgba(0,154,68,255);
+        margin: 10px 30px;
+    }
+
+    .servicestext{
+        color: black;
+    }
+
+    .serviceslists{
+        padding-left: 40px;
+        font-size: 18px;
+        background: none;
+    }
+
+    /* Licenses specific style */
+
+    #licensesh1{
+        margin: 175px 0px;
+    }
+
+    .licensesimgs1{
+        height: 100px;
+        object-fit: cover;
+        margin: 100px 0 0 20px;
+    }
+
+    .NJBIA{
+        height: 150px;
+    }
+
+    .licensesimgs2{
+        height: 150px;
+        object-fit: cover;
+        margin: 30px 0 0 20px;
+    }
+
+    .USCustoms{
+        height: 200px;
+    }
+
+    .WCA{
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    /* Contact specific style */
+
+    #contacth1{
+        margin: 175px 0px 240px ;
+    }
+
+    #contactbutton{
+        border-color: black;
+        color: black;
+        background-color: white;
+        margin-left: 15px;
+    }
+
+    #contactbutton:hover{
+        border-color: rgba(0,154,68,255);
+        background-color: rgba(0,154,68,255);
         color: white;
     }
 
-@media(max-width: 568px) {
-    .pimg1{
-        background-attachment: scroll;
+    #contactform{
+        text-align: center;
+        display: inline;
     }
-    #navbarimg{
+
+    #contactprofileimg{
+        border-radius: 90%;
         height: 100px;
-        width: 200px;
-        margin-left: -10px;
+        object-fit: cover;
+        margin: 30px 10px ;
     }
+
+    #contactcards{
+        margin: 50px 0 15px;
+    }
+
+    .cardtext{
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    #cardtitle{
+        font-size: 26px;
+        font-weight: 549;
+    }
+
+
+    /* Navbar specific style */
+
+    .navbar-nav{
+        font-weight: 700;
+        font-size: large;
+    }
+
+    #navbarimg{
+        height: 80px;
+        width: 250px;
+        margin-left: 20px;
+        margin-top: -13px;
+    }
+
+    .navbar-toggler{
+        background-color: rgba(0,154,68,255);
+    }
+
+    .navbar{
+        width: 100%;
+        top: 0; 
+        z-index: 5;
+    }
+
+    .nav-item{
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        margin-left: 15px;
+        transition: 0.50s ease;
+        background: none;
+        text-align: center;
+    }
+
+        .nav-item:hover, .active {
+        color: rgb(146, 146, 146);
+    }
+
+        .navbar-brand{
+        color:white;
+        font-weight: bold;
+    }
+
+    #navbutton{
+        white-space: nowrap;
+        margin-right: 25px;
+    }
+
+    /* Footer specific style */
+
+    #footerIMG{
+        height: 100px;
+        margin-top: 220px;
+    }
+
 }
+
+    @media (min-width: 1025px) {
+
+        body, html{
+            background-size: 100% 680px;
+        }
+
+        /* Home specific style */
+
+        #titletext{
+            font-size: 350%;
+            margin: 200px 0px;
+        }
+
+        .homep{
+            margin: 0 150px;
+        }    
+
+        /* Services specific style */
+
+        #servicesh1{
+            margin: 250px 0px 290px 0px;
+        }
+        
+        .serviceslists{
+            font-size: 16px;
+        }
+
+        /* License specific style */
+
+        #licensesh1{
+            margin: 250px 0px 250px 0px;
+        }
+
+        /* Contact specific style */
+
+        #contacth1{
+            margin: 250px 0px 270px 0px;
+        }
+
+        /* Navbar specific style */
+
+        #navbutton{
+            background-color: rgba(0,154,68,255);
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #FFFFFF;
+            border-radius: 5px 5px 5px 5px;
+            padding: 8px 15px 8px 15px;
+            color: white;
+            margin-left: 100px;
+        }
+
+        #navbutton:hover{
+            background-color: white;
+            color: rgba(0,154,68,255);
+        }
+
+        .nav-item{
+            margin-left: 30px;
+            margin-top: -25px;
+        }
+
+        #homelink{
+            margin-left: 200px;
+        }
+        
+        #navbarimg{
+            margin-left: 200px;
+        }
+
+        /* Footer specific style */
+
+        #footerIMG{
+            height: 120px;
+            margin-top: 100px;
+        }
+    }
