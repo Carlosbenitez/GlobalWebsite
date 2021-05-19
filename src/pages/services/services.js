@@ -5,9 +5,8 @@ function Services() {
 
     return (
         <>
-            <h1 id="servicesh1"><span >Our Services</span></h1>
+            <h1 className="customh1" id="servicesh1"><span >Our Services</span></h1>
             
-                
             <ul className="serviceslists">
             <div className = "row">
             <div className ="column">
@@ -37,7 +36,6 @@ function Services() {
                 </div>
                 </div>
             </ul>      
-            
         </>
 
     )

@@ -17,9 +17,9 @@ function Contact() {
             <div className="col-sm-8 col-md-4 col-lg-4 center" key={card.id}>
                 <div className="content cardtext">
                     <img src={card.image} alt={card.alt} id="contactprofileimg"/>
-                    <h2>{card.title}</h2>
-                    <p>{card.position}</p>
-                    <p>{card.email}</p>
+                    <h2 id="cardtitle">{card.title}</h2>
+                    <p className="cardp">{card.position}</p>
+                    <p className="cardp">{card.email}</p>
                 </div>
             </div>)
     }
@@ -35,7 +35,7 @@ function Contact() {
 
 
             <div id="contentback">
-                <h1 id="contacth1"><span >Contact Us</span></h1>
+                <h1 className="customh1" id="contacth1"><span >Contact Us</span></h1>
                 <hr />
                 <form id="contactform">
                     <div className="form-group col-md-6">

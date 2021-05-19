@@ -10,7 +10,7 @@ function Licenses() {
 
     return (
         <>
-            <h1 id="licensesh1"><span >Licenses & Accreditation</span></h1>
+            <h1 className="customh1" id="licensesh1"><span >Licenses & Accreditation</span></h1>
             <div className="row">
             <div className="col-sm-auto center">
             <img src={CTPAT} alt="CTPAT" className="licensesimgs1"/>
@@ -25,7 +25,7 @@ function Licenses() {
 
             <div className="row">
             <div className="col-lg-auto center">
-            <img src={FMC} alt="FMC" className="licensesimgs2"/>
+            <img src={FMC} alt="FMC" className="licensesimgs2 FMC"/>
             </div>
             <div className="col-lg-auto center">
             <img src={USCustoms} alt="US Customs and Border Protection" className="licensesimgs2 USCustoms"/>
